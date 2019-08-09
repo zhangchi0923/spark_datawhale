@@ -5,14 +5,14 @@
   - 优化完全依赖Hive
   - Spark兼容Hive时存在线程安全问题
 
-![arch](D:\上汽实习\插图\arch.gif)
+![arch](https://github.com/zhangchi0923/spark_datawhale/blob/master/images/arch.gif)
 
 - SparkSQL
   - 融合多数据源（结构化、非结构化）
   - 机器学习算法处理数据能力
   - 最终，提供了DataFrame API
 
-![sparksql](D:\上汽实习\插图\sparksql.png)
+![sparksql](https://github.com/zhangchi0923/spark_datawhale/blob/master/images/sparksql.png)
 
 
 
@@ -58,7 +58,7 @@
   - 窄依赖：一个父RDD分区对应一个子RDD分区、或多个父RDD分区对应一个子RDD分区
   - 宽依赖：一个父RDD分区对应多个子RDD分区
 
-  ![宽窄依赖](D:\上汽实习\插图\宽窄依赖.png)
+  ![宽窄依赖]([https://github.com/zhangchi0923/spark_datawhale/blob/master/images/%E5%AE%BD%E7%AA%84%E4%BE%9D%E8%B5%96.png](https://github.com/zhangchi0923/spark_datawhale/blob/master/images/宽窄依赖.png))
 
   
 
@@ -71,7 +71,7 @@
 
   
 
-  ![stage](D:\上汽实习\插图\stage.png)
+  ![stage](https://github.com/zhangchi0923/spark_datawhale/blob/master/images/stage.png)
 
   
 
@@ -81,7 +81,7 @@
     - DAGScheduler将DAG解析成不同的stage，每个stage包含不同的task（task之间无shuffle关系）
     - 每个task被TaskScheduler分发给各个WorkerNode上的Executor进程去执行
 
-  ![RDD](D:\上汽实习\插图\RDD.png)
+  ![RDD](https://github.com/zhangchi0923/spark_datawhale/blob/master/images/RDD.png)
 
 ​	
 
@@ -102,7 +102,7 @@
     - stage
       - task、taskScheduler
 
-    ![Application内部](D:\上汽实习\插图\Application内部.png)
+    ![Application内部]([https://github.com/zhangchi0923/spark_datawhale/blob/master/images/Application%E5%86%85%E9%83%A8.png](https://github.com/zhangchi0923/spark_datawhale/blob/master/images/Application内部.png))
 
   - ClusterManager（独立、yarn、mesos）
 
@@ -111,7 +111,7 @@
     - Executor进程
       - 多线程执行taskScheduler提交上来的任务
 
-![spark架构](D:\上汽实习\插图\spark架构.png)
+![spark架构]([https://github.com/zhangchi0923/spark_datawhale/blob/master/images/spark%E6%9E%B6%E6%9E%84.png](https://github.com/zhangchi0923/spark_datawhale/blob/master/images/spark架构.png))
 
 #### RDD编程
 
