@@ -58,7 +58,7 @@
   - 窄依赖：一个父RDD分区对应一个子RDD分区、或多个父RDD分区对应一个子RDD分区
   - 宽依赖：一个父RDD分区对应多个子RDD分区
 
-  ![宽窄依赖]([https://github.com/zhangchi0923/spark_datawhale/blob/master/images/%E5%AE%BD%E7%AA%84%E4%BE%9D%E8%B5%96.png](https://github.com/zhangchi0923/spark_datawhale/blob/master/images/宽窄依赖.png))
+  ![宽窄依赖](https://github.com/zhangchi0923/spark_datawhale/tree/master/images)
 
   
 
@@ -102,7 +102,7 @@
     - stage
       - task、taskScheduler
 
-    ![Application内部]([https://github.com/zhangchi0923/spark_datawhale/blob/master/images/Application%E5%86%85%E9%83%A8.png](https://github.com/zhangchi0923/spark_datawhale/blob/master/images/Application内部.png))
+    ![Application内部原理](https://github.com/zhangchi0923/spark_datawhale/tree/master/images)
 
   - ClusterManager（独立、yarn、mesos）
 
@@ -111,7 +111,7 @@
     - Executor进程
       - 多线程执行taskScheduler提交上来的任务
 
-![spark架构]([https://github.com/zhangchi0923/spark_datawhale/blob/master/images/spark%E6%9E%B6%E6%9E%84.png](https://github.com/zhangchi0923/spark_datawhale/blob/master/images/spark架构.png))
+![spark架构](https://github.com/zhangchi0923/spark_datawhale/tree/master/images)
 
 #### RDD编程
 
